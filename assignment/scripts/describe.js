@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called name and set it to Dane.
+// Then we use a conditional to check if name is exactly equal to Mary.
+// If it is we would see the console log display 'Hi, Mary!'
+// In this case, since Dane does not equal Mary we console.log 'How do you do?
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create two variables: secret set to undefined and code set to 123. 
+// In the first conditional we check if code exactly equals 123.
+// If it does (and it does) we set secret to super and we multiply code by 2 (code now equals 246).
+// We check to see if 246 is greater than 250. It is not, so secret stays as super which is the output from console.log(secret)
 
 //CODE
 /*
