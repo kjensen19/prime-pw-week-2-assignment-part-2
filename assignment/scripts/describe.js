@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// First we set variables: isStudent is true, age is 34 and zip is 55407
+// First we check if isStudent is true (yes) AND if zip is greater than 8000(no) so we do NOT log 'You're a student on the West Coast!'
+// Next we check if isStudent false (no) or age is less than 30 (no) so we do NOT log 'What are your hobbies?'
+//Next we check if isStudent exactly equals true (yes) so we console.log 'Welcome to Prime!' so we do not reach the final catch-all else clause.
 
 //CODE
 /*
@@ -130,6 +130,9 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX- colorOne should equal 'blue' and colorTwo should equal 'red.
+// Also in the final if we need to also set colorTwo to purple (currently only colorOne is being changed)
+
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
@@ -147,6 +150,8 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+//FIX the double pipe (||) would be for or, we need to change to && to make sure we are checking if both clauses are true
+
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -159,6 +164,8 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+
+//FIX first line should read if (age < minAge). Or we could just go: age < minAge ? console.log('no entry') : console.log('enter')
 
 if(minAge <= age) {
   console.log('no entry');
